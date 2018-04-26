@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'VONetworking'
+  s.ios.deployment_target = "9.0"
   s.version  = '0.0.1'
   s.license = "Copyright (c) 2018年 Gavin. All rights reserved."
   s.homepage = 'https://github.com/feidaoGavin/VONetworking.git'
