@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
   s.requires_arc  = true
-  s.source_files  = "VONetworking", "VONetworking/**/*.{h,m}"
-  #s.resources = "Resources/*.png"
+  s.source_files  = 'VONetworking', 'VONetworking/**/*.{h,m}'
+  s.dependency 'VOToleranceTool', '0.0.1'
+  s.dependency 'AFNetworking', '3.1.0'
 end
