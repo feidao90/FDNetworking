@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>appbaseurl</key>
+		<string>https://client-vo.mqcoding.com</string>
+		<key>h5baseurl</key>
+		<string>https://m-vo.mqcoding.com</string>
+		<key>appid</key>
+		<string>8eDuqZ6SJI8UHRt7c35o47</string>
+		<key>appkey</key>
+		<string>Qn37xj0Hmz6vCQwqE4gqq</string>
+		<key>appsecret</key>
+		<string>MBni1wgM4LAnDZ1UcaASz2</string>
+		<key>mastersecret</key>
+		<string>MoTy4ubaWM6reAxvsYZT4A</string>
+	</dict>
+	<dict>
+		<key>appbaseurl</key>
+		<string>https://client-vo.mqcoding.com</string>
+		<key>h5baseurl</key>
+		<string>https://m-vo.mqcoding.com</string>
+		<key>appid</key>
+		<string>osOOxU5HN68eSgV0mn7Vx1</string>
+		<key>appkey</key>
+		<string>OgHHb8IS6n9XXhURXZu94</string>
+		<key>appsecret</key>
+		<string>WRBUHkXsmL9voV4BgnMzo6</string>
+		<key>mastersecret</key>
+		<string>ZN0chsLUzg526Uu2jkOXn</string>
+	</dict>
+	<dict>
+		<key>appbaseurl</key>
+		<string>https://client-demo.vk-office.com</string>
+		<key>h5baseurl</key>
+		<string>https://m-demo.vk-office.com</string>
+		<key>appid</key>
+		<string>flfZGDOIfO8cK3E7VdyXK4</string>
+		<key>appkey</key>
+		<string>RWsGwsQYs09kZ5NlJQTLf2</string>
+		<key>appsecret</key>
+		<string>6wBuZ8av5x7quPLLFS9eb</string>
+		<key>mastersecret</key>
+		<string>U6ihmZvbPw9WhsJ6v7WI03</string>
+	</dict>
+	<dict>
+		<key>appbaseurl</key>
+		<string>https://client.vk-office.com</string>
+		<key>h5baseurl</key>
+		<string>https://m.vk-office.com</string>
+		<key>appid</key>
+		<string>Ta7DO1PVrp6S7kVyF6vAH9</string>
+		<key>appkey</key>
+		<string>HFIm1ROFVO7vDZqrDDmiC7</string>
+		<key>appsecret</key>
+		<string>dDnmOXCfYw7iH0NryrfBw2</string>
+		<key>mastersecret</key>
+		<string>N51l82pXnc54m9RCjw8mR2</string>
+	</dict>
+</array>
+</plist>
