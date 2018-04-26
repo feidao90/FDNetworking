@@ -7,7 +7,7 @@
 //
 
 #import "VONetworking+Session.h"
-#import "NSDictionary+Category.h"
+#import "VOCategorySet.h"
 
 static NSString *VOConnectionSessionKey = @"VOConnectionSessionKey";
 static NSString *VOConnectionCookieKey = @"VOConnectionCookieKey";
