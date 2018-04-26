@@ -12,15 +12,15 @@ Pod::Spec.new do |s|
   }
   s.requires_arc  = true
   s.source_files  = 'VONetworking', 'VONetworking/**/*.{h,m}'
-  s.dependency 'VOToleranceTool'
-    s.subspec "VOToleranceTool" do |ss|
-      ss.dependency "VOToleranceTool", "0.0.1"
-       ss.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/VOToleranceTool"}
-    end
+  s.dependency 'VOToleranceTool', '0.0.1'
+    #s.subspec "VOToleranceTool" do |ss|
+       #ss.dependency "VOToleranceTool", "0.0.1"
+       #ss.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/VOToleranceTool"}
+    #end
 
-  s.dependency 'AFNetworking'
-    s.subspec "AFNetworking" do |ss|
-      ss.dependency "AFNetworking", "3.1.0"
-      ss.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/AFNetworking"}
-    end
+  s.dependency 'AFNetworking', '3.1.0'
+    #s.subspec "AFNetworking" do |ss|
+      #ss.dependency "AFNetworking", "3.1.0"
+      #ss.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/AFNetworking"}
+    #end
 end
