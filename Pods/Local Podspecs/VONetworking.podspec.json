@@ -1,0 +1,22 @@
+{
+  "name": "VONetworking",
+  "version": "0.1.0",
+  "summary": "A short description of VONetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/heguangzhong2009@gmail.com/VONetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "heguangzhong2009@gmail.com": "heguangzhong@nosppp.com"
+  },
+  "source": {
+    "git": "https://github.com/heguangzhong2009@gmail.com/VONetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VONetworking/Classes/**/*"
+}
