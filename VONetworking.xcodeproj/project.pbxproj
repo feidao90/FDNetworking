@@ -52,9 +52,8 @@
 		86E0EA2D2091BC260052AE09 /* VONetworking+Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VONetworking+Session.m"; sourceTree = "<group>"; };
 		86E0EA2E2091BC260052AE09 /* VONetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONetworking.h; sourceTree = "<group>"; };
 		86E0EA2F2091BC260052AE09 /* VONetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONetworking.m; sourceTree = "<group>"; };
-		A4C1C6A9AF6278D53FFD7C27 /* Pods-VONetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking_Tests/Pods-VONetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		86E0EA502091CD650052AE09 /* VONetworking copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VONetworking copy-Info.plist"; path = "/Users/gavin/Documents/GitHub/VONetworking/VONetworking copy-Info.plist"; sourceTree = "<absolute>"; };
 		D65D920301E18B6612E244F0 /* libPods-VONetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VONetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8D7D4C65BDAC49987DAA3D3 /* Pods-VONetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking_Tests/Pods-VONetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +80,7 @@
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				D511FE0DDFB0E31A4DEF79BD /* Pods */,
+				86E0EA502091CD650052AE09 /* VONetworking copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,8 +173,6 @@
 		D511FE0DDFB0E31A4DEF79BD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A4C1C6A9AF6278D53FFD7C27 /* Pods-VONetworking_Tests.debug.xcconfig */,
-				D8D7D4C65BDAC49987DAA3D3 /* Pods-VONetworking_Tests.release.xcconfig */,
 				428E8721A7D3DCEDFAEB7041 /* Pods-VONetworking.debug.xcconfig */,
 				4A7340D6F745258126BEEF3B /* Pods-VONetworking.release.xcconfig */,
 			);
@@ -213,6 +211,7 @@
 				ORGANIZATIONNAME = "heguangzhong2009@gmail.com";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = U28WL52S69;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -331,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -364,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -375,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 428E8721A7D3DCEDFAEB7041 /* Pods-VONetworking.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = U28WL52S69;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -398,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A7340D6F745258126BEEF3B /* Pods-VONetworking.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = U28WL52S69;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
