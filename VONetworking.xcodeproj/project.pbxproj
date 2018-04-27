@@ -7,56 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		172FE24360758F008B74CC02 /* libPods-VONetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D65D920301E18B6612E244F0 /* libPods-VONetworking.a */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* VOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* VOAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* VOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* VOViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		86E0EA302091BC260052AE09 /* VOCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E0EA202091BC260052AE09 /* VOCacheManager.m */; };
-		86E0EA312091BC260052AE09 /* VODiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E0EA222091BC260052AE09 /* VODiskCache.m */; };
-		86E0EA322091BC260052AE09 /* VOLRUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E0EA242091BC260052AE09 /* VOLRUManager.m */; };
-		86E0EA332091BC260052AE09 /* VOMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E0EA262091BC260052AE09 /* VOMemoryCache.m */; };
-		86E0EA342091BC260052AE09 /* VONetworking+RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E0EA292091BC260052AE09 /* VONetworking+RequestManager.m */; };
-		86E0EA352091BC260052AE09 /* enviroment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86E0EA2B2091BC260052AE09 /* enviroment.plist */; };
-		86E0EA362091BC260052AE09 /* VONetworking+Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E0EA2D2091BC260052AE09 /* VONetworking+Session.m */; };
-		86E0EA372091BC260052AE09 /* VONetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E0EA2F2091BC260052AE09 /* VONetworking.m */; };
-		B335AF0FCD089C61AE6F2ACE /* Pods_VONetworking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC13C024761EF0F9D439575 /* Pods_VONetworking_Tests.framework */; };
+		6B312F5CFB52D18D303C43BC /* libPods-VONetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD216E6B8A4DE37E98489EA /* libPods-VONetworking.a */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		86D21AC12092C392007E6FCD /* VONetworking+Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D21AB12092C392007E6FCD /* VONetworking+Session.m */; };
+		86D21AC22092C392007E6FCD /* VOCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D21AB42092C392007E6FCD /* VOCacheManager.m */; };
+		86D21AC32092C392007E6FCD /* VODiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D21AB62092C392007E6FCD /* VODiskCache.m */; };
+		86D21AC42092C392007E6FCD /* VOLRUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D21AB82092C392007E6FCD /* VOLRUManager.m */; };
+		86D21AC52092C392007E6FCD /* VOMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D21ABA2092C392007E6FCD /* VOMemoryCache.m */; };
+		86D21AC62092C392007E6FCD /* VONetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D21ABB2092C392007E6FCD /* VONetworking.m */; };
+		86D21AC72092C392007E6FCD /* VONetworking+RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D21ABE2092C392007E6FCD /* VONetworking+RequestManager.m */; };
+		86D21AC82092C3B7007E6FCD /* libVOToleranceTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D21AC92092C3B7007E6FCD /* libVOToleranceTool.a */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = VONetworking;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		428E8721A7D3DCEDFAEB7041 /* Pods-VONetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking.debug.xcconfig"; sourceTree = "<group>"; };
-		4A7340D6F745258126BEEF3B /* Pods-VONetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking.release.xcconfig"; sourceTree = "<group>"; };
-		4FC13C024761EF0F9D439575 /* Pods_VONetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VONetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D7481CC1174BC06096276 /* Pods_VONetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VONetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* VONetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VONetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* VONetworking.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VONetworking.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F595195388D20070C39A /* VONetworking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VONetworking-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* VONetworking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VONetworking-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* VOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* VOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* VOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* VOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* VONetworking_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VONetworking_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		86E0EA1F2091BC260052AE09 /* VOCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOCacheManager.h; sourceTree = "<group>"; };
-		86E0EA202091BC260052AE09 /* VOCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOCacheManager.m; sourceTree = "<group>"; };
-		86E0EA212091BC260052AE09 /* VODiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VODiskCache.h; sourceTree = "<group>"; };
-		86E0EA222091BC260052AE09 /* VODiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VODiskCache.m; sourceTree = "<group>"; };
-		86E0EA232091BC260052AE09 /* VOLRUManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOLRUManager.h; sourceTree = "<group>"; };
-		86E0EA242091BC260052AE09 /* VOLRUManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOLRUManager.m; sourceTree = "<group>"; };
-		86E0EA252091BC260052AE09 /* VOMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOMemoryCache.h; sourceTree = "<group>"; };
-		86E0EA262091BC260052AE09 /* VOMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOMemoryCache.m; sourceTree = "<group>"; };
-		86E0EA282091BC260052AE09 /* VONetworking+RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VONetworking+RequestManager.h"; sourceTree = "<group>"; };
-		86E0EA292091BC260052AE09 /* VONetworking+RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VONetworking+RequestManager.m"; sourceTree = "<group>"; };
-		86E0EA2B2091BC260052AE09 /* enviroment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = enviroment.plist; sourceTree = "<group>"; };
-		86E0EA2C2091BC260052AE09 /* VONetworking+Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VONetworking+Session.h"; sourceTree = "<group>"; };
-		86E0EA2D2091BC260052AE09 /* VONetworking+Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VONetworking+Session.m"; sourceTree = "<group>"; };
-		86E0EA2E2091BC260052AE09 /* VONetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONetworking.h; sourceTree = "<group>"; };
-		86E0EA2F2091BC260052AE09 /* VONetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONetworking.m; sourceTree = "<group>"; };
-		86E0EA502091CD650052AE09 /* VONetworking copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VONetworking copy-Info.plist"; path = "/Users/gavin/Documents/GitHub/VONetworking/VONetworking copy-Info.plist"; sourceTree = "<absolute>"; };
-		D65D920301E18B6612E244F0 /* libPods-VONetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VONetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86C7E5C82C94E37F4EEA24FC /* Pods_VONetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VONetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D21AB12092C392007E6FCD /* VONetworking+Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VONetworking+Session.m"; sourceTree = "<group>"; };
+		86D21AB32092C392007E6FCD /* VOCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOCacheManager.h; sourceTree = "<group>"; };
+		86D21AB42092C392007E6FCD /* VOCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOCacheManager.m; sourceTree = "<group>"; };
+		86D21AB52092C392007E6FCD /* VODiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VODiskCache.h; sourceTree = "<group>"; };
+		86D21AB62092C392007E6FCD /* VODiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VODiskCache.m; sourceTree = "<group>"; };
+		86D21AB72092C392007E6FCD /* VOLRUManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOLRUManager.h; sourceTree = "<group>"; };
+		86D21AB82092C392007E6FCD /* VOLRUManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOLRUManager.m; sourceTree = "<group>"; };
+		86D21AB92092C392007E6FCD /* VOMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOMemoryCache.h; sourceTree = "<group>"; };
+		86D21ABA2092C392007E6FCD /* VOMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOMemoryCache.m; sourceTree = "<group>"; };
+		86D21ABB2092C392007E6FCD /* VONetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONetworking.m; sourceTree = "<group>"; };
+		86D21ABD2092C392007E6FCD /* VONetworking+RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VONetworking+RequestManager.h"; sourceTree = "<group>"; };
+		86D21ABE2092C392007E6FCD /* VONetworking+RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VONetworking+RequestManager.m"; sourceTree = "<group>"; };
+		86D21ABF2092C392007E6FCD /* VONetworking+Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VONetworking+Session.h"; sourceTree = "<group>"; };
+		86D21AC02092C392007E6FCD /* VONetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONetworking.h; sourceTree = "<group>"; };
+		86D21AC92092C3B7007E6FCD /* libVOToleranceTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libVOToleranceTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A96B788F8F6013FC67247498 /* Pods-VONetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		DFD216E6B8A4DE37E98489EA /* libPods-VONetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VONetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45A68FADD814276E70B1FD8 /* Pods-VONetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D21AC82092C3B7007E6FCD /* libVOToleranceTool.a in Frameworks */,
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				6B312F5CFB52D18D303C43BC /* libPods-VONetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AB195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,8 +107,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				B335AF0FCD089C61AE6F2ACE /* Pods_VONetworking_Tests.framework in Frameworks */,
-				172FE24360758F008B74CC02 /* libPods-VONetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,19 +116,19 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				86E0EA1D2091BC260052AE09 /* VONetworking */,
+				6003F593195388D20070C39A /* Example for VONetworking */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				D511FE0DDFB0E31A4DEF79BD /* Pods */,
-				86E0EA502091CD650052AE09 /* VONetworking copy-Info.plist */,
+				E1B6EE9936845CDA93D285E8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5AE195388D20070C39A /* VONetworking.xctest */,
+				6003F58A195388D20070C39A /* VONetworking.app */,
+				6003F5AE195388D20070C39A /* VONetworking_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,14 +136,49 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				86D21AC92092C3B7007E6FCD /* libVOToleranceTool.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4FC13C024761EF0F9D439575 /* Pods_VONetworking_Tests.framework */,
-				D65D920301E18B6612E244F0 /* libPods-VONetworking.a */,
+				86C7E5C82C94E37F4EEA24FC /* Pods_VONetworking_Example.framework */,
+				043D7481CC1174BC06096276 /* Pods_VONetworking_Tests.framework */,
+				DFD216E6B8A4DE37E98489EA /* libPods-VONetworking.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for VONetworking */ = {
+			isa = PBXGroup;
+			children = (
+				6003F59C195388D20070C39A /* VOAppDelegate.h */,
+				6003F59D195388D20070C39A /* VOAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A5195388D20070C39A /* VOViewController.h */,
+				6003F5A6195388D20070C39A /* VOViewController.m */,
+				86D21AC02092C392007E6FCD /* VONetworking.h */,
+				86D21ABB2092C392007E6FCD /* VONetworking.m */,
+				86D21ABF2092C392007E6FCD /* VONetworking+Session.h */,
+				86D21AB12092C392007E6FCD /* VONetworking+Session.m */,
+				86D21AB22092C392007E6FCD /* Cache */,
+				86D21ABC2092C392007E6FCD /* RequestManager */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for VONetworking";
+			path = VONetworking;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* VONetworking-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* VONetworking-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6003F5B5195388D20070C39A /* Tests */ = {
@@ -124,57 +200,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		86E0EA1D2091BC260052AE09 /* VONetworking */ = {
+		86D21AB22092C392007E6FCD /* Cache */ = {
 			isa = PBXGroup;
 			children = (
-				86E0EA1E2091BC260052AE09 /* Cache */,
-				86E0EA272091BC260052AE09 /* RequestManager */,
-				86E0EA2A2091BC260052AE09 /* resource */,
-				86E0EA2C2091BC260052AE09 /* VONetworking+Session.h */,
-				86E0EA2D2091BC260052AE09 /* VONetworking+Session.m */,
-				86E0EA2E2091BC260052AE09 /* VONetworking.h */,
-				86E0EA2F2091BC260052AE09 /* VONetworking.m */,
-			);
-			path = VONetworking;
-			sourceTree = "<group>";
-		};
-		86E0EA1E2091BC260052AE09 /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				86E0EA1F2091BC260052AE09 /* VOCacheManager.h */,
-				86E0EA202091BC260052AE09 /* VOCacheManager.m */,
-				86E0EA212091BC260052AE09 /* VODiskCache.h */,
-				86E0EA222091BC260052AE09 /* VODiskCache.m */,
-				86E0EA232091BC260052AE09 /* VOLRUManager.h */,
-				86E0EA242091BC260052AE09 /* VOLRUManager.m */,
-				86E0EA252091BC260052AE09 /* VOMemoryCache.h */,
-				86E0EA262091BC260052AE09 /* VOMemoryCache.m */,
+				86D21AB32092C392007E6FCD /* VOCacheManager.h */,
+				86D21AB42092C392007E6FCD /* VOCacheManager.m */,
+				86D21AB52092C392007E6FCD /* VODiskCache.h */,
+				86D21AB62092C392007E6FCD /* VODiskCache.m */,
+				86D21AB72092C392007E6FCD /* VOLRUManager.h */,
+				86D21AB82092C392007E6FCD /* VOLRUManager.m */,
+				86D21AB92092C392007E6FCD /* VOMemoryCache.h */,
+				86D21ABA2092C392007E6FCD /* VOMemoryCache.m */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
 		};
-		86E0EA272091BC260052AE09 /* RequestManager */ = {
+		86D21ABC2092C392007E6FCD /* RequestManager */ = {
 			isa = PBXGroup;
 			children = (
-				86E0EA282091BC260052AE09 /* VONetworking+RequestManager.h */,
-				86E0EA292091BC260052AE09 /* VONetworking+RequestManager.m */,
+				86D21ABD2092C392007E6FCD /* VONetworking+RequestManager.h */,
+				86D21ABE2092C392007E6FCD /* VONetworking+RequestManager.m */,
 			);
 			path = RequestManager;
 			sourceTree = "<group>";
 		};
-		86E0EA2A2091BC260052AE09 /* resource */ = {
+		E1B6EE9936845CDA93D285E8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				86E0EA2B2091BC260052AE09 /* enviroment.plist */,
-			);
-			path = resource;
-			sourceTree = "<group>";
-		};
-		D511FE0DDFB0E31A4DEF79BD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				428E8721A7D3DCEDFAEB7041 /* Pods-VONetworking.debug.xcconfig */,
-				4A7340D6F745258126BEEF3B /* Pods-VONetworking.release.xcconfig */,
+				A96B788F8F6013FC67247498 /* Pods-VONetworking.debug.xcconfig */,
+				E45A68FADD814276E70B1FD8 /* Pods-VONetworking.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -182,11 +236,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F5AD195388D20070C39A /* VONetworking */ = {
+		6003F589195388D20070C39A /* VONetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "VONetworking" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "VONetworking" */;
 			buildPhases = (
-				A7CD7A75AC51C41F84DFFD09 /* [CP] Check Pods Manifest.lock */,
+				BD0BC6D7211683208B7AB23D /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VONetworking;
+			productName = VONetworking;
+			productReference = 6003F58A195388D20070C39A /* VONetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* VONetworking_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "VONetworking_Tests" */;
+			buildPhases = (
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -194,10 +265,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = VONetworking;
+			name = VONetworking_Tests;
 			productName = VONetworkingTests;
-			productReference = 6003F5AE195388D20070C39A /* VONetworking.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* VONetworking_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,11 +279,13 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = VO;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "heguangzhong2009@gmail.com";
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
+					6003F589195388D20070C39A = {
 						DevelopmentTeam = U28WL52S69;
+					};
+					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -229,25 +303,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F5AD195388D20070C39A /* VONetworking */,
+				6003F589195388D20070C39A /* VONetworking */,
+				6003F5AD195388D20070C39A /* VONetworking_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AC195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
-				86E0EA352091BC260052AE09 /* enviroment.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A7CD7A75AC51C41F84DFFD09 /* [CP] Check Pods Manifest.lock */ = {
+		BD0BC6D7211683208B7AB23D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,30 +353,64 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D21AC32092C392007E6FCD /* VODiskCache.m in Sources */,
+				86D21AC22092C392007E6FCD /* VOCacheManager.m in Sources */,
+				6003F59E195388D20070C39A /* VOAppDelegate.m in Sources */,
+				86D21AC12092C392007E6FCD /* VONetworking+Session.m in Sources */,
+				86D21AC52092C392007E6FCD /* VOMemoryCache.m in Sources */,
+				6003F5A7195388D20070C39A /* VOViewController.m in Sources */,
+				86D21AC72092C392007E6FCD /* VONetworking+RequestManager.m in Sources */,
+				86D21AC42092C392007E6FCD /* VOLRUManager.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				86D21AC62092C392007E6FCD /* VONetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AA195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E0EA342091BC260052AE09 /* VONetworking+RequestManager.m in Sources */,
-				86E0EA322091BC260052AE09 /* VOLRUManager.m in Sources */,
-				86E0EA312091BC260052AE09 /* VODiskCache.m in Sources */,
-				86E0EA362091BC260052AE09 /* VONetworking+Session.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
-				86E0EA332091BC260052AE09 /* VOMemoryCache.m in Sources */,
-				86E0EA372091BC260052AE09 /* VONetworking.m in Sources */,
-				86E0EA302091BC260052AE09 /* VOCacheManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* VONetworking */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -305,19 +424,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -330,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,36 +475,80 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96B788F8F6013FC67247498 /* Pods-VONetworking.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U28WL52S69;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VONetworking/VONetworking-Prefix.pch";
+				INFOPLIST_FILE = "VONetworking/VONetworking-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45A68FADD814276E70B1FD8 /* Pods-VONetworking.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U28WL52S69;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VONetworking/VONetworking-Prefix.pch";
+				INFOPLIST_FILE = "VONetworking/VONetworking-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 428E8721A7D3DCEDFAEB7041 /* Pods-VONetworking.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = U28WL52S69;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -389,16 +563,15 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VONetworking_Example.app/VONetworking_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VONetworking.app/VONetworking";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A7340D6F745258126BEEF3B /* Pods-VONetworking.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = U28WL52S69;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -409,7 +582,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VONetworking_Example.app/VONetworking_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VONetworking.app/VONetworking";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -426,7 +599,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "VONetworking" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "VONetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "VONetworking_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
