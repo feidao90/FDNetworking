@@ -14,11 +14,11 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - VOToleranceTool (0.0.1)
+  - VOToleranceTool (0.0.2)
 
 DEPENDENCIES:
   - AFNetworking (= 3.1.0)
-  - VOToleranceTool (= 0.0.1)
+  - VOToleranceTool (= 0.0.2)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -27,8 +27,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  VOToleranceTool: b9be1b900b216d5f09d3942504340d2d1d45c873
+  VOToleranceTool: eb43d7ed92ac04b79be01759757f7736cff48382
 
-PODFILE CHECKSUM: 7761a110b57f151d61d5fcbe5ace9d210177afe1
+PODFILE CHECKSUM: 639b66fe45452934869d72f6ee709087c9dba023
 
 COCOAPODS: 1.5.0

@@ -12,6 +12,10 @@ Pod::Spec.new do |s|
   }
   s.requires_arc  = true
   s.source_files  = 'VONetworking', 'VONetworking/**/*.{h,m}'
+
   s.dependency 'VOToleranceTool', '0.0.2'
   s.dependency 'AFNetworking', '3.1.0'
+
+  s.dependency 'VOBaseViewController', '1.0.2'
+  s.dependency 'MBProgressHUD', '1.1.0'
 end

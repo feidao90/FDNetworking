@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 @interface UIView (Frame)
 /**
  *  获得当前屏幕的宽度

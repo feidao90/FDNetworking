@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		109CBDDE09DE13C93C4B1971 /* libPods-VONetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 651BD3C66F0027595F4E6FA0 /* libPods-VONetworking.a */; };
-		3D1F025AA7ACD0C9C53D16F3 /* Pods_VONetworking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744646DBB95FE1E64666C8BF /* Pods_VONetworking_Tests.framework */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		86194C0E2094175A00E6F370 /* VOCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194BFE2094175A00E6F370 /* VOCacheManager.m */; };
+		86194C0F2094175A00E6F370 /* VODiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C002094175A00E6F370 /* VODiskCache.m */; };
+		86194C102094175A00E6F370 /* VOLRUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C022094175A00E6F370 /* VOLRUManager.m */; };
+		86194C112094175A00E6F370 /* VOMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C042094175A00E6F370 /* VOMemoryCache.m */; };
+		86194C122094175A00E6F370 /* VONetworking+RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C072094175A00E6F370 /* VONetworking+RequestManager.m */; };
+		86194C132094175A00E6F370 /* enviroment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86194C092094175A00E6F370 /* enviroment.plist */; };
+		86194C142094175A00E6F370 /* VONetworking+Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C0B2094175A00E6F370 /* VONetworking+Session.m */; };
+		86194C152094175A00E6F370 /* VONetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C0D2094175A00E6F370 /* VONetworking.m */; };
+		86194C19209418E700E6F370 /* VOLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C18209418E700E6F370 /* VOLoginManager.m */; };
+		86194C8120944D2C00E6F370 /* VOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C6220944D2B00E6F370 /* VOLoginViewController.m */; };
+		86194C8220944D2C00E6F370 /* VOMineChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C6420944D2B00E6F370 /* VOMineChangePasswordViewController.m */; };
+		86194C8320944D2C00E6F370 /* VOMineUserNameSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C6620944D2B00E6F370 /* VOMineUserNameSetViewController.m */; };
+		86194C8420944D2C00E6F370 /* VORegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C6820944D2B00E6F370 /* VORegisterViewController.m */; };
+		86194C8520944D2C00E6F370 /* VORestPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C6A20944D2B00E6F370 /* VORestPasswordViewController.m */; };
+		86194C8620944D2C00E6F370 /* VOAvatarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C6D20944D2C00E6F370 /* VOAvatarModel.m */; };
+		86194C8720944D2C00E6F370 /* VOContractTimesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C6F20944D2C00E6F370 /* VOContractTimesModel.m */; };
+		86194C8820944D2C00E6F370 /* VOLoginRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C7120944D2C00E6F370 /* VOLoginRequestModel.m */; };
+		86194C8920944D2C00E6F370 /* VOLoginResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C7320944D2C00E6F370 /* VOLoginResponseModel.m */; };
+		86194C8A20944D2C00E6F370 /* VOMembersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C7520944D2C00E6F370 /* VOMembersModel.m */; };
+		86194C8B20944D2C00E6F370 /* VOProjectsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C7720944D2C00E6F370 /* VOProjectsModel.m */; };
+		86194C8C20944D2C00E6F370 /* VOUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C7920944D2C00E6F370 /* VOUserModel.m */; };
+		86194C8D20944D2C00E6F370 /* UIResultMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C7C20944D2C00E6F370 /* UIResultMessageView.m */; };
+		86194C8E20944D2C00E6F370 /* VOMinePasswordManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C7E20944D2C00E6F370 /* VOMinePasswordManagerView.m */; };
+		86194C8F20944D2C00E6F370 /* VOPasswordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194C8020944D2C00E6F370 /* VOPasswordTextField.m */; };
+		CF1740CF650439B8619036EC /* libPods-VONetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 869AFE54540B050F3E24ECF0 /* libPods-VONetworking.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37567F529A185637749D339D /* VONetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VONetworking.podspec; path = ../VONetworking.podspec; sourceTree = "<group>"; };
-		3D12828DDB17DD2900201B5F /* Pods-VONetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -28,11 +49,57 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		651BD3C66F0027595F4E6FA0 /* libPods-VONetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VONetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		744646DBB95FE1E64666C8BF /* Pods_VONetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VONetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B412D5E111B1377D994AB000 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E32CABC677E9C40DF435804E /* Pods-VONetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking.release.xcconfig"; sourceTree = "<group>"; };
-		FE642E93ED39200222EB557B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		64B2A5A239963634AB722C9F /* Pods_VONetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VONetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BF9852B0025DC232FB1EB0 /* Pods-VONetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking.release.xcconfig"; sourceTree = "<group>"; };
+		86194BFD2094175A00E6F370 /* VOCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOCacheManager.h; sourceTree = "<group>"; };
+		86194BFE2094175A00E6F370 /* VOCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOCacheManager.m; sourceTree = "<group>"; };
+		86194BFF2094175A00E6F370 /* VODiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VODiskCache.h; sourceTree = "<group>"; };
+		86194C002094175A00E6F370 /* VODiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VODiskCache.m; sourceTree = "<group>"; };
+		86194C012094175A00E6F370 /* VOLRUManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOLRUManager.h; sourceTree = "<group>"; };
+		86194C022094175A00E6F370 /* VOLRUManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOLRUManager.m; sourceTree = "<group>"; };
+		86194C032094175A00E6F370 /* VOMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOMemoryCache.h; sourceTree = "<group>"; };
+		86194C042094175A00E6F370 /* VOMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOMemoryCache.m; sourceTree = "<group>"; };
+		86194C062094175A00E6F370 /* VONetworking+RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VONetworking+RequestManager.h"; sourceTree = "<group>"; };
+		86194C072094175A00E6F370 /* VONetworking+RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VONetworking+RequestManager.m"; sourceTree = "<group>"; };
+		86194C092094175A00E6F370 /* enviroment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = enviroment.plist; sourceTree = "<group>"; };
+		86194C0A2094175A00E6F370 /* VONetworking+Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VONetworking+Session.h"; sourceTree = "<group>"; };
+		86194C0B2094175A00E6F370 /* VONetworking+Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VONetworking+Session.m"; sourceTree = "<group>"; };
+		86194C0C2094175A00E6F370 /* VONetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONetworking.h; sourceTree = "<group>"; };
+		86194C0D2094175A00E6F370 /* VONetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONetworking.m; sourceTree = "<group>"; };
+		86194C17209418E700E6F370 /* VOLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOLoginManager.h; sourceTree = "<group>"; };
+		86194C18209418E700E6F370 /* VOLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOLoginManager.m; sourceTree = "<group>"; };
+		86194C6120944D2B00E6F370 /* VOLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOLoginViewController.h; sourceTree = "<group>"; };
+		86194C6220944D2B00E6F370 /* VOLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOLoginViewController.m; sourceTree = "<group>"; };
+		86194C6320944D2B00E6F370 /* VOMineChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOMineChangePasswordViewController.h; sourceTree = "<group>"; };
+		86194C6420944D2B00E6F370 /* VOMineChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOMineChangePasswordViewController.m; sourceTree = "<group>"; };
+		86194C6520944D2B00E6F370 /* VOMineUserNameSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOMineUserNameSetViewController.h; sourceTree = "<group>"; };
+		86194C6620944D2B00E6F370 /* VOMineUserNameSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOMineUserNameSetViewController.m; sourceTree = "<group>"; };
+		86194C6720944D2B00E6F370 /* VORegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VORegisterViewController.h; sourceTree = "<group>"; };
+		86194C6820944D2B00E6F370 /* VORegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VORegisterViewController.m; sourceTree = "<group>"; };
+		86194C6920944D2B00E6F370 /* VORestPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VORestPasswordViewController.h; sourceTree = "<group>"; };
+		86194C6A20944D2B00E6F370 /* VORestPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VORestPasswordViewController.m; sourceTree = "<group>"; };
+		86194C6C20944D2C00E6F370 /* VOAvatarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOAvatarModel.h; sourceTree = "<group>"; };
+		86194C6D20944D2C00E6F370 /* VOAvatarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOAvatarModel.m; sourceTree = "<group>"; };
+		86194C6E20944D2C00E6F370 /* VOContractTimesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOContractTimesModel.h; sourceTree = "<group>"; };
+		86194C6F20944D2C00E6F370 /* VOContractTimesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOContractTimesModel.m; sourceTree = "<group>"; };
+		86194C7020944D2C00E6F370 /* VOLoginRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOLoginRequestModel.h; sourceTree = "<group>"; };
+		86194C7120944D2C00E6F370 /* VOLoginRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOLoginRequestModel.m; sourceTree = "<group>"; };
+		86194C7220944D2C00E6F370 /* VOLoginResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOLoginResponseModel.h; sourceTree = "<group>"; };
+		86194C7320944D2C00E6F370 /* VOLoginResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOLoginResponseModel.m; sourceTree = "<group>"; };
+		86194C7420944D2C00E6F370 /* VOMembersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOMembersModel.h; sourceTree = "<group>"; };
+		86194C7520944D2C00E6F370 /* VOMembersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOMembersModel.m; sourceTree = "<group>"; };
+		86194C7620944D2C00E6F370 /* VOProjectsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOProjectsModel.h; sourceTree = "<group>"; };
+		86194C7720944D2C00E6F370 /* VOProjectsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOProjectsModel.m; sourceTree = "<group>"; };
+		86194C7820944D2C00E6F370 /* VOUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOUserModel.h; sourceTree = "<group>"; };
+		86194C7920944D2C00E6F370 /* VOUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOUserModel.m; sourceTree = "<group>"; };
+		86194C7B20944D2C00E6F370 /* UIResultMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIResultMessageView.h; sourceTree = "<group>"; };
+		86194C7C20944D2C00E6F370 /* UIResultMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIResultMessageView.m; sourceTree = "<group>"; };
+		86194C7D20944D2C00E6F370 /* VOMinePasswordManagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOMinePasswordManagerView.h; sourceTree = "<group>"; };
+		86194C7E20944D2C00E6F370 /* VOMinePasswordManagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOMinePasswordManagerView.m; sourceTree = "<group>"; };
+		86194C7F20944D2C00E6F370 /* VOPasswordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOPasswordTextField.h; sourceTree = "<group>"; };
+		86194C8020944D2C00E6F370 /* VOPasswordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOPasswordTextField.m; sourceTree = "<group>"; };
+		869AFE54540B050F3E24ECF0 /* libPods-VONetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VONetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD445B74AE58DF5BF1FDCB9 /* Pods-VONetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +110,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				3D1F025AA7ACD0C9C53D16F3 /* Pods_VONetworking_Tests.framework in Frameworks */,
-				109CBDDE09DE13C93C4B1971 /* libPods-VONetworking.a in Frameworks */,
+				CF1740CF650439B8619036EC /* libPods-VONetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,11 +120,11 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				86194BFB2094175A00E6F370 /* VONetworking */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				6A709E70C5E6720FC1BBC8C1 /* Pods */,
+				73BED139ABADDBF4DFB01467 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +143,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				744646DBB95FE1E64666C8BF /* Pods_VONetworking_Tests.framework */,
-				651BD3C66F0027595F4E6FA0 /* libPods-VONetworking.a */,
+				64B2A5A239963634AB722C9F /* Pods_VONetworking_Tests.framework */,
+				869AFE54540B050F3E24ECF0 /* libPods-VONetworking.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,23 +168,123 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+		73BED139ABADDBF4DFB01467 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				37567F529A185637749D339D /* VONetworking.podspec */,
-				B412D5E111B1377D994AB000 /* README.md */,
-				FE642E93ED39200222EB557B /* LICENSE */,
-			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		6A709E70C5E6720FC1BBC8C1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3D12828DDB17DD2900201B5F /* Pods-VONetworking.debug.xcconfig */,
-				E32CABC677E9C40DF435804E /* Pods-VONetworking.release.xcconfig */,
+				DAD445B74AE58DF5BF1FDCB9 /* Pods-VONetworking.debug.xcconfig */,
+				74BF9852B0025DC232FB1EB0 /* Pods-VONetworking.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		86194BFB2094175A00E6F370 /* VONetworking */ = {
+			isa = PBXGroup;
+			children = (
+				86194C0C2094175A00E6F370 /* VONetworking.h */,
+				86194C0D2094175A00E6F370 /* VONetworking.m */,
+				86194C0A2094175A00E6F370 /* VONetworking+Session.h */,
+				86194C0B2094175A00E6F370 /* VONetworking+Session.m */,
+				86194C6B20944D2C00E6F370 /* Model */,
+				86194C7A20944D2C00E6F370 /* View */,
+				86194C6020944D2B00E6F370 /* ViewController */,
+				86194C16209418E700E6F370 /* Manager */,
+				86194BFC2094175A00E6F370 /* Cache */,
+				86194C052094175A00E6F370 /* RequestManager */,
+				86194C082094175A00E6F370 /* resource */,
+			);
+			path = VONetworking;
+			sourceTree = "<group>";
+		};
+		86194BFC2094175A00E6F370 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				86194BFD2094175A00E6F370 /* VOCacheManager.h */,
+				86194BFE2094175A00E6F370 /* VOCacheManager.m */,
+				86194BFF2094175A00E6F370 /* VODiskCache.h */,
+				86194C002094175A00E6F370 /* VODiskCache.m */,
+				86194C012094175A00E6F370 /* VOLRUManager.h */,
+				86194C022094175A00E6F370 /* VOLRUManager.m */,
+				86194C032094175A00E6F370 /* VOMemoryCache.h */,
+				86194C042094175A00E6F370 /* VOMemoryCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		86194C052094175A00E6F370 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				86194C062094175A00E6F370 /* VONetworking+RequestManager.h */,
+				86194C072094175A00E6F370 /* VONetworking+RequestManager.m */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		86194C082094175A00E6F370 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				86194C092094175A00E6F370 /* enviroment.plist */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		86194C16209418E700E6F370 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				86194C17209418E700E6F370 /* VOLoginManager.h */,
+				86194C18209418E700E6F370 /* VOLoginManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		86194C6020944D2B00E6F370 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				86194C6120944D2B00E6F370 /* VOLoginViewController.h */,
+				86194C6220944D2B00E6F370 /* VOLoginViewController.m */,
+				86194C6320944D2B00E6F370 /* VOMineChangePasswordViewController.h */,
+				86194C6420944D2B00E6F370 /* VOMineChangePasswordViewController.m */,
+				86194C6520944D2B00E6F370 /* VOMineUserNameSetViewController.h */,
+				86194C6620944D2B00E6F370 /* VOMineUserNameSetViewController.m */,
+				86194C6720944D2B00E6F370 /* VORegisterViewController.h */,
+				86194C6820944D2B00E6F370 /* VORegisterViewController.m */,
+				86194C6920944D2B00E6F370 /* VORestPasswordViewController.h */,
+				86194C6A20944D2B00E6F370 /* VORestPasswordViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		86194C6B20944D2C00E6F370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86194C6C20944D2C00E6F370 /* VOAvatarModel.h */,
+				86194C6D20944D2C00E6F370 /* VOAvatarModel.m */,
+				86194C6E20944D2C00E6F370 /* VOContractTimesModel.h */,
+				86194C6F20944D2C00E6F370 /* VOContractTimesModel.m */,
+				86194C7020944D2C00E6F370 /* VOLoginRequestModel.h */,
+				86194C7120944D2C00E6F370 /* VOLoginRequestModel.m */,
+				86194C7220944D2C00E6F370 /* VOLoginResponseModel.h */,
+				86194C7320944D2C00E6F370 /* VOLoginResponseModel.m */,
+				86194C7420944D2C00E6F370 /* VOMembersModel.h */,
+				86194C7520944D2C00E6F370 /* VOMembersModel.m */,
+				86194C7620944D2C00E6F370 /* VOProjectsModel.h */,
+				86194C7720944D2C00E6F370 /* VOProjectsModel.m */,
+				86194C7820944D2C00E6F370 /* VOUserModel.h */,
+				86194C7920944D2C00E6F370 /* VOUserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86194C7A20944D2C00E6F370 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86194C7B20944D2C00E6F370 /* UIResultMessageView.h */,
+				86194C7C20944D2C00E6F370 /* UIResultMessageView.m */,
+				86194C7D20944D2C00E6F370 /* VOMinePasswordManagerView.h */,
+				86194C7E20944D2C00E6F370 /* VOMinePasswordManagerView.m */,
+				86194C7F20944D2C00E6F370 /* VOPasswordTextField.h */,
+				86194C8020944D2C00E6F370 /* VOPasswordTextField.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "VONetworking" */;
 			buildPhases = (
-				681DC773792731BE2F5531D2 /* [CP] Check Pods Manifest.lock */,
+				DBF9AFA41F10570C539F9950 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -181,13 +347,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				86194C132094175A00E6F370 /* enviroment.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		681DC773792731BE2F5531D2 /* [CP] Check Pods Manifest.lock */ = {
+		DBF9AFA41F10570C539F9950 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,7 +379,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86194C8620944D2C00E6F370 /* VOAvatarModel.m in Sources */,
+				86194C8F20944D2C00E6F370 /* VOPasswordTextField.m in Sources */,
+				86194C122094175A00E6F370 /* VONetworking+RequestManager.m in Sources */,
+				86194C19209418E700E6F370 /* VOLoginManager.m in Sources */,
+				86194C102094175A00E6F370 /* VOLRUManager.m in Sources */,
+				86194C8120944D2C00E6F370 /* VOLoginViewController.m in Sources */,
+				86194C8520944D2C00E6F370 /* VORestPasswordViewController.m in Sources */,
+				86194C8A20944D2C00E6F370 /* VOMembersModel.m in Sources */,
+				86194C8E20944D2C00E6F370 /* VOMinePasswordManagerView.m in Sources */,
+				86194C0F2094175A00E6F370 /* VODiskCache.m in Sources */,
+				86194C8720944D2C00E6F370 /* VOContractTimesModel.m in Sources */,
+				86194C142094175A00E6F370 /* VONetworking+Session.m in Sources */,
+				86194C8920944D2C00E6F370 /* VOLoginResponseModel.m in Sources */,
+				86194C8420944D2C00E6F370 /* VORegisterViewController.m in Sources */,
+				86194C8C20944D2C00E6F370 /* VOUserModel.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				86194C8320944D2C00E6F370 /* VOMineUserNameSetViewController.m in Sources */,
+				86194C112094175A00E6F370 /* VOMemoryCache.m in Sources */,
+				86194C8820944D2C00E6F370 /* VOLoginRequestModel.m in Sources */,
+				86194C8B20944D2C00E6F370 /* VOProjectsModel.m in Sources */,
+				86194C152094175A00E6F370 /* VONetworking.m in Sources */,
+				86194C8D20944D2C00E6F370 /* UIResultMessageView.m in Sources */,
+				86194C8220944D2C00E6F370 /* VOMineChangePasswordViewController.m in Sources */,
+				86194C0E2094175A00E6F370 /* VOCacheManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +495,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D12828DDB17DD2900201B5F /* Pods-VONetworking.debug.xcconfig */;
+			baseConfigurationReference = DAD445B74AE58DF5BF1FDCB9 /* Pods-VONetworking.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -328,7 +518,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E32CABC677E9C40DF435804E /* Pods-VONetworking.release.xcconfig */;
+			baseConfigurationReference = 74BF9852B0025DC232FB1EB0 /* Pods-VONetworking.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

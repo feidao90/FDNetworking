@@ -16,10 +16,22 @@
 #import "VONetworking+Session.h"
 
 #import "VOLoginManager.h"
+#import "VOBaseHeader.h"
+
+#import "MBProgressHUD.h"
 
 #define VO_ERROR_IMFORMATION @"网络出现错误，请检查网络连接"
 #define VOBaseURLCacheKeyIndex @"netbaseurlcachekeyIndex"
 #define VO_ERROR [NSError errorWithDomain:@"com.hVO.VONetworking.ErrorDomain" code:-9999 userInfo:@{ NSLocalizedDescriptionKey:VO_ERROR_IMFORMATION}]
+
+/*********************************************************环境配置***************************************************************/
+#ifdef DEBUG //开发环境
+
+#define kEnviromentType 0
+
+#else //正式环境
+#define kEnviromentType 3
+#endif
 
 //超时message
 #define kTimeOutMessage @"BS99999999"
