@@ -16,6 +16,7 @@
 #import "VOLoginRequestModel.h"
 
 #import "VOLoginManager.h"
+#import "VOCategorySet.h"
 
 @interface VOLoginViewController ()
 {

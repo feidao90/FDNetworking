@@ -98,6 +98,7 @@
 		86194C7E20944D2C00E6F370 /* VOMinePasswordManagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOMinePasswordManagerView.m; sourceTree = "<group>"; };
 		86194C7F20944D2C00E6F370 /* VOPasswordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOPasswordTextField.h; sourceTree = "<group>"; };
 		86194C8020944D2C00E6F370 /* VOPasswordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOPasswordTextField.m; sourceTree = "<group>"; };
+		86194D57209465C800E6F370 /* VOBaseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOBaseHeader.h; sourceTree = "<group>"; };
 		869AFE54540B050F3E24ECF0 /* libPods-VONetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VONetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD445B74AE58DF5BF1FDCB9 /* Pods-VONetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,6 +181,7 @@
 		86194BFB2094175A00E6F370 /* VONetworking */ = {
 			isa = PBXGroup;
 			children = (
+				86194D57209465C800E6F370 /* VOBaseHeader.h */,
 				86194C0C2094175A00E6F370 /* VONetworking.h */,
 				86194C0D2094175A00E6F370 /* VONetworking.m */,
 				86194C0A2094175A00E6F370 /* VONetworking+Session.h */,

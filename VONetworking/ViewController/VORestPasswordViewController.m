@@ -13,6 +13,7 @@
 #import "VOPasswordTextField.h"
 
 #import "VOBaseHeader.h"
+#import "VOBaseHeader.h"
 @interface VORestPasswordViewController ()<UITextFieldDelegate>
 {
     UITextField *_userName;
@@ -285,7 +286,7 @@
         [messageView showMessageViewWithMessage:@"密码长度必须在8至30个字之间"];
         return;
     }
-    CGFloat statusHeight = kHeight_NavBar;
+    CGFloat statusHeight = Height_NavBar;
     switch (self.accountType)
     {
         case VOAccountTypeEnterprise:   //企业

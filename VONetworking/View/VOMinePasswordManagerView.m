@@ -7,6 +7,7 @@
 //
 
 #import "VOMinePasswordManagerView.h"
+#import "VOCategorySet.h"
 
 @interface VOMinePasswordManagerView()
 {

@@ -12,6 +12,8 @@
 #import "VONetworking+Session.h"
 #import "VOPasswordTextField.h"
 
+#import "VOCategorySet.h"
+
 @interface VORegisterViewController ()<UITextFieldDelegate>
 {
     UITextField *_userName;

@@ -9,6 +9,7 @@
 #import "BaseViewController.h"
 #import "VOUserModel.h"
 
+#import "VOCategorySet.h"
 @interface VOMineUserNameSetViewController : BaseViewController
 
 @property (nonatomic,strong) VOUserModel *userModel;

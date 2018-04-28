@@ -13,6 +13,7 @@
 #import "VONetworking+Session.h"
 
 #import "VOMinePasswordManagerView.h"
+#import "VOCategorySet.h"
 
 @interface VOMineChangePasswordViewController ()<UITextFieldDelegate>
 {

@@ -12,6 +12,11 @@
 #import "VONetworking+Session.h"
 #import <GTSDK/GeTuiSdk.h>
 
+#import "VOCategorySet.h"
+#import "VOBaseNavViewController.h"
+
+#import "VOBaseHeader.h"
+
 @interface VOLoginManager()
 
 @property (nonatomic,strong) id currentLoginVC;

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "VOBaseNavViewController.h"
 
 /**
  *  网络状态

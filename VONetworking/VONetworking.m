@@ -21,6 +21,8 @@
 #import "MBProgressHUD.h"
 #import "VOCategorySet.h"
 
+#import "VOBaseHeader.h"
+
 #define VO_ERROR_IMFORMATION @"网络出现错误，请检查网络连接"
 #define VOBaseURLCacheKeyIndex @"netbaseurlcachekeyIndex"
 #define VO_ERROR [NSError errorWithDomain:@"com.hVO.VONetworking.ErrorDomain" code:-9999 userInfo:@{ NSLocalizedDescriptionKey:VO_ERROR_IMFORMATION}]
