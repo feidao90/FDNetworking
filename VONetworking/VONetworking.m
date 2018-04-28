@@ -19,6 +19,7 @@
 #import "VOBaseHeader.h"
 
 #import "MBProgressHUD.h"
+#import "VOCategorySet.h"
 
 #define VO_ERROR_IMFORMATION @"网络出现错误，请检查网络连接"
 #define VOBaseURLCacheKeyIndex @"netbaseurlcachekeyIndex"
