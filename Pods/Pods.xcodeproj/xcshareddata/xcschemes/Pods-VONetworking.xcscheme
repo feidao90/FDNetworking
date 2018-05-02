@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8543CE78BBA307846EC5047397EA0420"
-               BuildableName = "Pods_VONetworking.framework"
+               BlueprintIdentifier = "86E6844DE7F4FFD26B1BDA573E85C5A4"
+               BuildableName = "libPods-VONetworking.a"
                BlueprintName = "Pods-VONetworking"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -47,8 +47,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8543CE78BBA307846EC5047397EA0420"
-            BuildableName = "Pods_VONetworking.framework"
+            BlueprintIdentifier = "86E6844DE7F4FFD26B1BDA573E85C5A4"
+            BuildableName = "libPods-VONetworking.a"
             BlueprintName = "Pods-VONetworking"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
@@ -65,8 +65,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8543CE78BBA307846EC5047397EA0420"
-            BuildableName = "Pods_VONetworking.framework"
+            BlueprintIdentifier = "86E6844DE7F4FFD26B1BDA573E85C5A4"
+            BuildableName = "libPods-VONetworking.a"
             BlueprintName = "Pods-VONetworking"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
