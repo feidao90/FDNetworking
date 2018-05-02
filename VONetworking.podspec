@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary  = 'VONetworking基于AFNetworking网络库，实现业务自定义'
   s.author   = 'heguangzhong2009@gmail.com'
   s.source   = { 
-    :git => 'https://github.com/feidaoGavin/VONetworking.git', 
+    :git => 'git@github.com:feidaoGavin/VONetworking.git', 
     :tag => s.version.to_s
   }
   s.requires_arc  = true
