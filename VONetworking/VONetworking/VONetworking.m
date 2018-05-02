@@ -707,7 +707,7 @@ static NSTimeInterval   requestTimeout = 20.;
     [alertVC addAction:secAction];
     if ([[UIApplication sharedApplication].delegate.window.rootViewController isKindOfClass:[UITabBarController class]]) {
         UITabBarController *tab = (UITabBarController *) [UIApplication sharedApplication].delegate.window.rootViewController;
-        if ([[tab class] isKindOfClass:[UITabBarController class]]) {
+        if ([tab isKindOfClass:[UITabBarController class]]) {
             [tab.selectedViewController presentViewController:alertVC animated:YES completion:nil];
         }
     }
@@ -731,10 +731,10 @@ static NSTimeInterval   requestTimeout = 20.;
         }
         [VOLoginManager logoutWithComplete:^{
             [hud hideAnimated:YES];
-            if ([[tabbar class] isKindOfClass:[UITabBarController class]]) {
+            if ([tabbar isKindOfClass:[UITabBarController class]]) {
                 [tabbar.selectedViewController popToRootViewControllerAnimated:NO];
                 UITabBarController *tabVC = (UITabBarController *)[UIApplication sharedApplication].delegate.window.rootViewController;
-                if ([[tabVC class] isKindOfClass:[UITabBarController class]]) {
+                if ([tabVC isKindOfClass:[UITabBarController class]]) {
                     tabVC.selectedIndex = 0;
                 }
             }
@@ -743,7 +743,7 @@ static NSTimeInterval   requestTimeout = 20.;
     [alertVC addAction:firstAction];
     if ([[UIApplication sharedApplication].delegate.window.rootViewController isKindOfClass:[UITabBarController class]]) {
         UITabBarController *tab = (UITabBarController *)[UIApplication sharedApplication].delegate.window.rootViewController;
-        if ([[tab class] isKindOfClass:[UITabBarController class]]) {
+        if ([tab isKindOfClass:[UITabBarController class]]) {
             [tab.selectedViewController presentViewController:alertVC animated:YES completion:nil];
         }
     }
@@ -763,7 +763,7 @@ static NSTimeInterval   requestTimeout = 20.;
         [VOLoginManager logoutWithComplete:^{
             [tabbar.selectedViewController popToRootViewControllerAnimated:NO];
             UITabBarController *tabVC = (UITabBarController *)[UIApplication sharedApplication].delegate.window.rootViewController;
-            if ([[tabVC class] isKindOfClass:[UITabBarController class]]) {
+            if ([tabVC isKindOfClass:[UITabBarController class]]) {
                 tabVC.selectedIndex = 0;
             }
         }];
@@ -771,7 +771,7 @@ static NSTimeInterval   requestTimeout = 20.;
     [alertVC addAction:firstAction];
     if ([[UIApplication sharedApplication].delegate.window.rootViewController isKindOfClass:[UITabBarController class]]) {
         UITabBarController *tab = (UITabBarController *)[UIApplication sharedApplication].delegate.window.rootViewController;
-        if ([[tab class] isKindOfClass:[UITabBarController class]]) {
+        if ([tab isKindOfClass:[UITabBarController class]]) {
             [tab.selectedViewController presentViewController:alertVC animated:YES completion:nil];
         }
     }
