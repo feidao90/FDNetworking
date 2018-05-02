@@ -1,4 +1,6 @@
-use_frameworks!
+source 'https://github.com/artsy/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
 
 target 'VONetworking' do
     pod 'VOJSONModel', '0.0.1'
