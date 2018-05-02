@@ -47,7 +47,7 @@
 		86194E0D20996F1B00E6F370 /* VORestPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194DF220996F1B00E6F370 /* VORestPasswordViewController.m */; };
 		86194E0E20996F1B00E6F370 /* VONetworking+Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194DF520996F1B00E6F370 /* VONetworking+Session.m */; };
 		86194E0F20996F1B00E6F370 /* VONetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 86194DF720996F1B00E6F370 /* VONetworking.m */; };
-		B3AFE8BAD263CD39F2EC36B5 /* Pods_VONetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458F1B5A949129E099D55671 /* Pods_VONetworking.framework */; };
+		E36DDA6B276522F75D56BCF7 /* libPods-VONetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B592B61317ABB5EB12E62D7A /* libPods-VONetworking.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,6 @@
 		055CD836814D6B96DA98C54B /* Pods_VONetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VONetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3574482BF4FCB28ECC3E995F /* Pods-VONetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking.release.xcconfig"; sourceTree = "<group>"; };
 		3BD58485D366F4CE041131A3 /* Pods-VONetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VONetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking.debug.xcconfig"; sourceTree = "<group>"; };
-		458F1B5A949129E099D55671 /* Pods_VONetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VONetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* VONetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VONetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,6 +134,7 @@
 		86194DF620996F1B00E6F370 /* VONetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONetworking.h; sourceTree = "<group>"; };
 		86194DF720996F1B00E6F370 /* VONetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONetworking.m; sourceTree = "<group>"; };
 		9216BE9C38FDA81D4C70B915 /* Pods_VONetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VONetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B592B61317ABB5EB12E62D7A /* libPods-VONetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VONetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +145,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B3AFE8BAD263CD39F2EC36B5 /* Pods_VONetworking.framework in Frameworks */,
+				E36DDA6B276522F75D56BCF7 /* libPods-VONetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +200,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				9216BE9C38FDA81D4C70B915 /* Pods_VONetworking_Example.framework */,
 				055CD836814D6B96DA98C54B /* Pods_VONetworking_Tests.framework */,
-				458F1B5A949129E099D55671 /* Pods_VONetworking.framework */,
+				B592B61317ABB5EB12E62D7A /* libPods-VONetworking.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -373,7 +373,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B9467CBFFAEE573EBB8F378C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -477,32 +476,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B9467CBFFAEE573EBB8F378C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/VOBaseViewController/VOBaseViewController.framework",
-				"${BUILT_PRODUCTS_DIR}/VOJSONModel/VOJSONModel.framework",
-				"${BUILT_PRODUCTS_DIR}/VOToleranceTool/VOToleranceTool.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VOBaseViewController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VOJSONModel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VOToleranceTool.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VONetworking/Pods-VONetworking-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

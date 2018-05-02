@@ -58,6 +58,10 @@
 
 #pragma mark - iPhoneX 适配
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        self.interactivePopGestureRecognizer.enabled = NO;
+    }
+    
     [super pushViewController:viewController animated:animated];
     // 修改tabBra的frame
     CGRect frame = self.tabBarController.tabBar.frame;
@@ -74,6 +78,37 @@
 - (void)navigationController:(UINavigationController *)navigationController
        didShowViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
+    if ([navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        navigationController.interactivePopGestureRecognizer.enabled = YES;
+    }
+    
+    if (navigationController.viewControllers.count == 1) {
+        navigationController.interactivePopGestureRecognizer.enabled = NO;
+        navigationController.interactivePopGestureRecognizer.delegate = nil;
+    }
+}
+
+- (BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPushItem:(UINavigationItem *)item {
+    //只有一个控制器的时候禁止手势，防止卡死现象
+    if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        self.interactivePopGestureRecognizer.enabled = NO;
+    }
+    if (self.childViewControllers.count > 1) {
+        if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+            self.interactivePopGestureRecognizer.enabled = YES;
+        }
+    }
+    return YES;
+}
+
+- (void)navigationBar:(UINavigationBar *)navigationBar didPopItem:(UINavigationItem *)item {
+    //只有一个控制器的时候禁止手势，防止卡死现象
+    if (self.childViewControllers.count == 1) {
+        if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+            self.interactivePopGestureRecognizer.enabled = NO;
+        }
+    }
+
 }
 
 - (void)didReceiveMemoryWarning {
