@@ -1,0 +1,6 @@
+framework module VOToleranceTool {
+  umbrella header "VOToleranceTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

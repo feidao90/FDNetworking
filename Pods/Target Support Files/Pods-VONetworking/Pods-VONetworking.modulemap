@@ -1,0 +1,6 @@
+framework module Pods_VONetworking {
+  umbrella header "Pods-VONetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module VOJSONModel {
+  umbrella header "VOJSONModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

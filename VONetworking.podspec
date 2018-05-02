@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'VOJSONModel', '0.0.1'
   s.dependency 'GTSDK', '2.0.0.0'
+  s.prefix_header_file = 'VONetworking/VONetworking-Prefix.pch'
 end

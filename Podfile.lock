@@ -14,30 +14,38 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - GTSDK (2.0.0.0)
   - MBProgressHUD (1.1.0)
-  - VOBaseViewController (1.0.2):
-    - VOToleranceTool (= 0.0.2)
+  - VOBaseViewController (1.0.0):
+    - VOToleranceTool (~> 0.0.2)
+  - VOJSONModel (0.0.1)
   - VOToleranceTool (0.0.2)
 
 DEPENDENCIES:
   - AFNetworking (= 3.1.0)
+  - GTSDK (= 2.0.0.0)
   - MBProgressHUD (= 1.1.0)
-  - VOBaseViewController (= 1.0.2)
+  - VOBaseViewController (= 1.0.0)
+  - VOJSONModel (= 0.0.1)
   - VOToleranceTool (= 0.0.2)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - GTSDK
     - MBProgressHUD
     - VOBaseViewController
+    - VOJSONModel
     - VOToleranceTool
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GTSDK: 10882452fbd63e738334ea9463a7d59cbb172622
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  VOBaseViewController: e058c519ba454a76c3a4a1de8df76312775b21a7
+  VOBaseViewController: 18f3dbb8cf93afa47660ca921a27da6378f24ec4
+  VOJSONModel: 37e3d646476493edaf3ca072b5a8005e3d32a00e
   VOToleranceTool: eb43d7ed92ac04b79be01759757f7736cff48382
 
-PODFILE CHECKSUM: f9030e68e1226b1cb091c81a4bb3498d842a00ce
+PODFILE CHECKSUM: b99b0fc5f2fd2eee7a138ce839069c9e15090dab
 
 COCOAPODS: 1.5.0
