@@ -13,6 +13,7 @@ static NSString * kLoginInfoChanggeNotification = @"vologininfochangenotificatio
 static NSString * kLogedinNotification = @"vologedinnotification";
 
 static NSString * kLogedOutNotification = @"vologedoutnotification";
+static NSString *kLeaveEnterpriseNotification = @"voleaveenterprisenotification";
 
 typedef void(^LoginErrorBlock)(NSString *errorMessage);
 typedef void(^LoginRefreshCompleteBlock)(BOOL isSuccess);
