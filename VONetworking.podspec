@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.dependency 'VOToleranceTool', '0.0.2'
   s.dependency 'AFNetworking', '3.1.0'
 
-  s.dependency 'VOBaseViewController', '1.0.2'
+  s.dependency 'VOBaseViewController', '1.0.4'
   s.dependency 'MBProgressHUD', '1.1.0'
 
   s.dependency 'VOJSONModel', '0.0.1'
