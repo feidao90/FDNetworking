@@ -103,7 +103,7 @@ static NSTimeInterval   requestTimeout = 20.;
 + (NSString *)baseUrl
 {
     NSInteger index = kEnviromentType;//默认生产环境
-    NSString *path = [[NSBundle mainBundle]  pathForResource:@"enviroment" ofType:@"plist"];
+    NSString *path = [[NSBundle mainBundle]  pathForResource:@"enviroment" ofType:@"plist" inDirectory:@"VONetworking.bundle"];
     NSArray *enviromentList = [NSArray arrayWithContentsOfFile:path];
     NSDictionary *enviromentInfo =  [enviromentList safeObjectAtIndex:index];
      return [enviromentInfo safeObjectForKey:@"appbaseurl"];
@@ -112,7 +112,7 @@ static NSTimeInterval   requestTimeout = 20.;
 + (NSString *)h5BaseUrl
 {
     NSInteger index = kEnviromentType;//默认生产环境
-    NSString *path = [[NSBundle mainBundle]  pathForResource:@"enviroment" ofType:@"plist"];
+    NSString *path = [[NSBundle mainBundle]  pathForResource:@"enviroment" ofType:@"plist" inDirectory:@"VONetworking.bundle"];
     NSArray *enviromentList = [NSArray arrayWithContentsOfFile:path];
     NSDictionary *enviromentInfo =  [enviromentList safeObjectAtIndex:index];
     return [enviromentInfo safeObjectForKey:@"h5baseurl"];
