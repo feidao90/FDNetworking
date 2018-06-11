@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - GTSDK (2.0.0.0)
   - MBProgressHUD (1.1.0)
-  - VOBaseViewController (1.0.3):
+  - VOBaseViewController (1.0.4):
     - VOToleranceTool (= 0.0.2)
   - VOJSONModel (0.0.1)
   - VOToleranceTool (0.0.2)
@@ -25,7 +25,7 @@ DEPENDENCIES:
   - AFNetworking (= 3.1.0)
   - GTSDK (= 2.0.0.0)
   - MBProgressHUD (= 1.1.0)
-  - VOBaseViewController (= 1.0.3)
+  - VOBaseViewController (= 1.0.4)
   - VOJSONModel (= 0.0.1)
   - VOToleranceTool (= 0.0.2)
 
@@ -34,19 +34,18 @@ SPEC REPOS:
     - AFNetworking
     - GTSDK
     - MBProgressHUD
+    - VOBaseViewController
     - VOJSONModel
     - VOToleranceTool
-  https://github.com/feidaoGavin/VOfficeRepo.git:
-    - VOBaseViewController
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   GTSDK: 10882452fbd63e738334ea9463a7d59cbb172622
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  VOBaseViewController: c960cff546f8e24f83dbb2ddbb49af6b293015c7
+  VOBaseViewController: 562ec0fc427271939cbf223000e62dd5ed810973
   VOJSONModel: 37e3d646476493edaf3ca072b5a8005e3d32a00e
   VOToleranceTool: eb43d7ed92ac04b79be01759757f7736cff48382
 
-PODFILE CHECKSUM: 989db32c6eba431ba33232ba83f1f1d750858145
+PODFILE CHECKSUM: 82150645c0b783d2924cbd94c0c3500b6fb45795
 
 COCOAPODS: 1.5.0

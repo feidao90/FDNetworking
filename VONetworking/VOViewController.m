@@ -7,7 +7,7 @@
 //
 
 #import "VOViewController.h"
-
+#import "VONetworking.h"
 @interface VOViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [VONetworking baseUrl];
 }
 
 - (void)didReceiveMemoryWarning
