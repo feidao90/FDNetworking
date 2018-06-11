@@ -46,6 +46,8 @@
 
 @property (nonatomic,strong) VOUserAssociatorEnterpriseModel *enterprise;
 @property (nonatomic,copy) NSString *userId;
+
+@property (nonatomic,assign) BOOL hasXingShangHui;        //有无星商汇
 @end
 
 @class VOUserEnterPriseOfProcessModel;

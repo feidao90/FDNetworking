@@ -246,6 +246,11 @@
 		86194DBF20996F1B00E6F370 /* VONetworking */ = {
 			isa = PBXGroup;
 			children = (
+				86194DF320996F1B00E6F370 /* VOBaseHeader.h */,
+				86194DF420996F1B00E6F370 /* VONetworking+Session.h */,
+				86194DF520996F1B00E6F370 /* VONetworking+Session.m */,
+				86194DF620996F1B00E6F370 /* VONetworking.h */,
+				86194DF720996F1B00E6F370 /* VONetworking.m */,
 				86194DC020996F1B00E6F370 /* Cache */,
 				86194DC920996F1B00E6F370 /* Manager */,
 				86194DCD20996F1B00E6F370 /* Model */,
@@ -253,11 +258,6 @@
 				86194DDF20996F1B00E6F370 /* resource */,
 				86194DE120996F1B00E6F370 /* View */,
 				86194DE820996F1B00E6F370 /* ViewController */,
-				86194DF320996F1B00E6F370 /* VOBaseHeader.h */,
-				86194DF420996F1B00E6F370 /* VONetworking+Session.h */,
-				86194DF520996F1B00E6F370 /* VONetworking+Session.m */,
-				86194DF620996F1B00E6F370 /* VONetworking.h */,
-				86194DF720996F1B00E6F370 /* VONetworking.m */,
 			);
 			path = VONetworking;
 			sourceTree = "<group>";
