@@ -26,4 +26,4 @@ heguangzhong2009@gmail.com
 
 ## License
 
-VOService is available under the MIT license. See the LICENSE file for more info.
+VONetworking is available under the MIT license. See the LICENSE file for more info.
